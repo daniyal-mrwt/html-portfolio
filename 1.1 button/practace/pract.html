@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<style>
+ body{
+  margin: 0;
+  padding: 0;
+ }
+ .container{
+  width: 250px;
+  background-color: rgb(121, 141, 141);
+ }
+  .photo{
+   width: 50px;
+   border-radius: 100%;
+   object-fit: contain;
+   margin:5px  5px 0px 5px;  /* top right bottom left   */
+  }
+  .title{
+    font-weight: 600; 
+  }
+  .discrp{
+    font-size:small;
+    color: rgb(74, 73, 70);
+  }
+
+  .title-desc,.button, .photo-div{
+    display: inline-block;
+  }
+
+  .button{
+  vertical-align: top;
+  }
+ .button-first{
+  
+  margin-top: 10px;
+  margin-left: 75px;
+  background-color: aqua;
+  border: none;
+  height:30px;
+  width: 60px;
+  border-radius: 5px;
+ } 
+
+
+.button-secound{
+  
+  margin-top: 10px;
+  background-color: aqua;
+  border: none;
+  height:30px;
+  width: 60px;
+  border-radius: 5px;
+ } 
+
+
+ .container2{
+  display:grid;
+  grid-template-columns: 50px;
+  row-gap:10px
+
+}
+.photo2{
+   width:100%;
+  }
+
+</style>
+
+</head>
+<body>
+<div class="container">
+
+   <div class="photo-div">       
+
+
+    <img class="photo" src="cat.png" alt="cat photo">
+    </div>
+
+    <div  class="title-desc">
+       <div class="title">Oliver</div>
+       <div class="discrp" >the cat</div>
+       <div class="discrp">populer</div>
+    </div>
+            <div class="button">
+              <button class="button-first">Follow</button>
+            </div>
+</div>
+
+<div class="container2">
+
+  <div class="photo-div2">       
+     <img class="photo2" src="cat.png" alt="cat photo">
+   </div>
+
+   <div  class="title-desc">
+      <div class="title">Oliver</div>
+      <div class="discrp" >the cat</div>
+      <div class="discrp">populer</div>
+   </div>
+           <div class="button2">
+             <button class="button-secound">Follow</button>
+           </div>
+</div>
+
+</body>
+</html>

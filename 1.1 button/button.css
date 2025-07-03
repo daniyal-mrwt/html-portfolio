@@ -1,0 +1,79 @@
+.uber{
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 120px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber:hover{
+ opacity: 0.7;
+}
+
+.amazon{
+  background-color: rgba(255, 187, 0, 0.793);
+  color: black;
+  height: 30px;
+  width: 170px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+transition: opacity 0.15s;
+border: none;
+cursor: pointer;
+}
+.amazon:hover{
+  opacity: 0.9;
+ 
+}
+
+.git{
+  background-color: rgb(12, 164, 12);
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+transition: box-shadow 0.15s;
+cursor: pointer;
+
+}
+.git:hover{
+  box-shadow: 2px 5px rgba(49, 46, 56, 0.05);
+}
+
+
+.bootstrap{
+  background-color: rgba(138, 43, 226, 0.8);
+  color: white;
+  height: 40px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.15s;
+}
+
+.bootstrap:hover{
+background-color: blueviolet;
+}
+
+.bootstap_download{
+ background-color: white;
+ height: 38px;
+ width: 110px;
+ border:1px solid;
+ border-radius: 5px;
+font-weight: bold;
+cursor: pointer;
+transition: background-color 0.15s;
+}
+
+.bootstap_download:hover{
+  background-color:rgba(4, 1, 13, 0.25)
+}
